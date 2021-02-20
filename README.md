@@ -2,7 +2,7 @@
 > UNR GeoSystems Research Lab & Cambridge Berkeley - Geomechanics
 
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://raw.githubusercontent.com/GeoSystemsLab/spark-rocks/master/LICENSE.md)
-[![Scaladoc](http://javadoc-badge.appspot.com/com.github.nscala-time/nscala-time_2.11.svg?label=scaladoc)](https://GeoSystemsLab.github.io/GeoSystemsLab)
+[![Scaladoc](http://javadoc-badge.appspot.com/com.github.nscala-time/nscala-time_2.11.svg?label=scaladoc)](https://GeoSystemsLab.github.io/spark-rocks)
 [![](https://img.shields.io/github/issues-raw/GeoSystemsLab/spark-rocks.svg)](https://github.com/GeoSystemsLab/spark-rocks/issues)
 [![Build Status](https://dev.azure.com/mhgardner/mhgardner/_apis/build/status/GeosystemsLab.spark-rocks?branchName=master)](https://dev.azure.com/mhgardner/mhgardner/_build/latest?definitionId=1&branchName=master)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.166103.svg)](https://doi.org/10.1016/j.compgeo.2017.05.001)
