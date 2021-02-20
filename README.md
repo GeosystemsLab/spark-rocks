@@ -1,5 +1,5 @@
 # SparkRocks - Parallel rock slicing implementation on Apache Spark
-> UNR GeoSystems Research Lam & Cambridge Berkeley - Geomechanics
+> UNR GeoSystems Research Lab & Cambridge Berkeley - Geomechanics
 
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://raw.githubusercontent.com/GeoSystemsLab/spark-rocks/master/LICENSE.md)
 [![Scaladoc](http://javadoc-badge.appspot.com/com.github.nscala-time/nscala-time_2.11.svg?label=scaladoc)](https://GeoSystemsLab.github.io/GeoSystemsLab)
