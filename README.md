@@ -1,13 +1,11 @@
 # SparkRocks - Parallel rock slicing implementation on Apache Spark
-> Cambridge Berkeley - Geomechanics
+> UNR GeoSystems Research Lam & Cambridge Berkeley - Geomechanics
 
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://raw.githubusercontent.com/cb-geo/spark-rocks/master/LICENSE.md)
-[![Scaladoc](http://javadoc-badge.appspot.com/com.github.nscala-time/nscala-time_2.11.svg?label=scaladoc)](https://cb-geo.github.io/spark-rocks)
-[![](https://img.shields.io/github/issues-raw/cb-geo/spark-rocks.svg)](https://github.com/cb-geo/spark-rocks/issues)
-[![Build Status](https://travis-ci.org/cb-geo/spark-rocks.svg?branch=master)](https://travis-ci.org/cb-geo/spark-rocks)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://raw.githubusercontent.com/GeoSystemsLab/spark-rocks/master/LICENSE.md)
+[![Scaladoc](http://javadoc-badge.appspot.com/com.github.nscala-time/nscala-time_2.11.svg?label=scaladoc)](https://GeoSystemsLab.github.io/GeoSystemsLab)
+[![](https://img.shields.io/github/issues-raw/GeoSystemsLab/spark-rocks.svg)](https://github.com/GeoSystemsLab/spark-rocks/issues)
+[![Build Status](https://dev.azure.com/mhgardner/mhgardner/_apis/build/status/GeosystemsLab.spark-rocks?branchName=master)](https://dev.azure.com/mhgardner/mhgardner/_build/latest?definitionId=1&branchName=master)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.166103.svg)](https://doi.org/10.1016/j.compgeo.2017.05.001)
-
-Please post any general questions about using the code to the [DEM Forum](https://forum.cb-geo.com/c/dem)
 
 # Overview
 
@@ -56,7 +54,7 @@ One or both of:
 
 These flags specify which outputs are desired and the directory where to save them. `SparkRocks`
 can output either in `JSON` or an intermediate format that is easily converted to `VTK` using
-[`VisualRocks`](https://github.com/cb-geo/visual-rocks).
+[`VisualRocks`](https://github.com/GeoSystemsLab/visual-rocks).
 
 * Optional inputs:
 
@@ -137,7 +135,7 @@ involves writing code that essentially amounts to defining a single function
 that converts a collection of blocks into the necessary form.
 
 When generating `VTK` format, it is necessary to process the output files with
-[`VisualRocks`](https://github.com/cb-geo/visual-rocks). This is a simple
+[`VisualRocks`](https://github.com/GeoSystemsLab/visual-rocks). This is a simple
 Python script that converts the generated outputs into `.vtp` format so that
 it can be directly imported into `ParaView`.
 
