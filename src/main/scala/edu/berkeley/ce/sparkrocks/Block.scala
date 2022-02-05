@@ -503,9 +503,9 @@ case class Block(center: Array[Double], faces: Seq[Face], generation: Int=0) ext
               val p_vect = A_matx \ b_vect
               // Check if point is within block, otherwise discard it
               if (!pointOutsideBlock(Array(p_vect(0), p_vect(1), p_vect(2)))) {
-                Some((p_vect(0) + centerX,
-                      p_vect(1) + centerY,
-                      p_vect(2) + centerZ))
+                Some((NumericUtils.roundToTolerance(p_vect(0) + centerX, 6),
+                      NumericUtils.roundToTolerance(p_vect(1) + centerY, 6),
+                      NumericUtils.roundToTolerance(p_vect(2) + centerZ, 6)))
               } else None
             } else None
           }
